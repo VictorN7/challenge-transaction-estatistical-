@@ -2,7 +2,7 @@ package challenge.transaction.statistical.model;
 
 public class Statistical {
 
-	private Integer count; 
+	private Long count; 
 	private Double sum;
 	private Double avg;
 	private Double min;
@@ -11,7 +11,7 @@ public class Statistical {
 	public Statistical() {
 		
 	}
-	public Statistical(Integer count, Double sum, Double avg, Double min, Double max) {
+	public Statistical(Long count, Double sum, Double avg, Double min, Double max) {
 		this.count = count;
 		this.sum = sum;
 		this.avg = avg;
@@ -19,11 +19,11 @@ public class Statistical {
 		this.max = max;
 	}
 
-	public Integer getCount() {
+	public Long getCount() {
 		return count;
 	}
 
-	public void setCount(Integer count) {
+	public void setCount(Long count) {
 		this.count = count;
 	}
 
