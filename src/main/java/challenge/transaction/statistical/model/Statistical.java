@@ -1,6 +1,6 @@
 package challenge.transaction.statistical.model;
 
-public class Estatistical {
+public class Statistical {
 
 	private Integer count; 
 	private Double sum;
@@ -8,10 +8,10 @@ public class Estatistical {
 	private Double min;
 	private Double max; 
 
-	public Estatistical() {
+	public Statistical() {
 		
 	}
-	public Estatistical(Integer count, Double sum, Double avg, Double min, Double max) {
+	public Statistical(Integer count, Double sum, Double avg, Double min, Double max) {
 		this.count = count;
 		this.sum = sum;
 		this.avg = avg;
