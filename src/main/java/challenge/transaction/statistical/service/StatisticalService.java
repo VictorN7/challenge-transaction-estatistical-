@@ -1,9 +1,0 @@
-package challenge.transaction.statistical.service;
-
-public class StatisticalService {
-
-	
-	
-	
-	
-}
