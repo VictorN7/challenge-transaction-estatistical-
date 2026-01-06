@@ -10,7 +10,7 @@ import challenge.transaction.statistical.model.Transaction;
 @Service
 public class TransactionService {
 
-	public final Queue<Transaction> queueTransaction = new ConcurrentLinkedQueue<>();
+	private final Queue<Transaction> queueTransaction = new ConcurrentLinkedQueue<>();
 	
 	public void addTransaction(Transaction transaction) {
 		queueTransaction.add(transaction);
