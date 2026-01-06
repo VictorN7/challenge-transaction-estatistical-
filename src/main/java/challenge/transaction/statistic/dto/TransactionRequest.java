@@ -1,4 +1,4 @@
-package challenge.transaction.statistical.dto;
+package challenge.transaction.statistic.dto;
 
 import java.time.OffsetDateTime;
 

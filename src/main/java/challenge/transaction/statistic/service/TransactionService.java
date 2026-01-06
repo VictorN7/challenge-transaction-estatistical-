@@ -1,11 +1,12 @@
-package challenge.transaction.statistical.service;
+package challenge.transaction.statistic.service;
 
 import java.time.OffsetDateTime;
 import java.util.DoubleSummaryStatistics;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import org.springframework.stereotype.Service;
-import challenge.transaction.statistical.model.Transaction;
+
+import challenge.transaction.statistic.model.Transaction;
 
 @Service
 public class TransactionService {

@@ -1,13 +1,13 @@
-package challenge.transaction.statistical;
+package challenge.transaction.statistic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StatisticalApplication {
+public class StatisticApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StatisticalApplication.class, args);
+		SpringApplication.run(StatisticApplication.class, args);
 	}
 
 }

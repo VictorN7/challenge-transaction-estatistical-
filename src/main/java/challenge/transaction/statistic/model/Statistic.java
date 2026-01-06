@@ -1,6 +1,6 @@
-package challenge.transaction.statistical.model;
+package challenge.transaction.statistic.model;
 
-public class Statistical {
+public class Statistic {
 
 	private Long count; 
 	private Double sum;
@@ -8,10 +8,10 @@ public class Statistical {
 	private Double min;
 	private Double max; 
 
-	public Statistical() {
+	public Statistic() {
 		
 	}
-	public Statistical(Long count, Double sum, Double avg, Double min, Double max) {
+	public Statistic(Long count, Double sum, Double avg, Double min, Double max) {
 		this.count = count;
 		this.sum = sum;
 		this.avg = avg;

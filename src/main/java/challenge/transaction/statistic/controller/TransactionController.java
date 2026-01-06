@@ -1,4 +1,4 @@
-package challenge.transaction.statistical.controller;
+package challenge.transaction.statistic.controller;
 
 import java.time.OffsetDateTime;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import challenge.transaction.statistical.dto.TransactionRequest;
-import challenge.transaction.statistical.model.Transaction;
-import challenge.transaction.statistical.service.TransactionService;
+import challenge.transaction.statistic.dto.TransactionRequest;
+import challenge.transaction.statistic.model.Transaction;
+import challenge.transaction.statistic.service.TransactionService;
 import jakarta.validation.Valid;
 
 @RestController

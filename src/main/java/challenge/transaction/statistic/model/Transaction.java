@@ -1,4 +1,4 @@
-package challenge.transaction.statistical.model;
+package challenge.transaction.statistic.model;
 
 import java.time.OffsetDateTime;
 import jakarta.validation.constraints.NotBlank;

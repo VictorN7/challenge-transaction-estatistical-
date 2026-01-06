@@ -1,8 +1,8 @@
-package challenge.transaction.statistical.dto;
+package challenge.transaction.statistic.dto;
 
 import java.util.DoubleSummaryStatistics;
 
-public class StatisticalResponse {
+public class StatisticResponse {
 	
 	private Long count; 
 	private Double sum;
@@ -10,7 +10,7 @@ public class StatisticalResponse {
 	private Double min;
 	private Double max; 
 	
-	public StatisticalResponse(DoubleSummaryStatistics statistical ) {
+	public StatisticResponse(DoubleSummaryStatistics statistical ) {
 		
 		this.count = statistical.getCount();
 		this.sum = statistical.getSum();
